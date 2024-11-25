@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoRide - Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Barre de navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">EcoRide</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="covoiturages.html">Covoiturages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="connexion.html">Connexion</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section Contact -->
+    <section class="contact-section">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <p>Si vous avez des questions ou souhaitez plus d'informations, n'hésitez pas à nous contacter via ce formulaire.</p>
+
+            <!-- Formulaire de contact -->
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Votre nom</label>
+                    <input type="text" id="name" class="form-control" placeholder="Entrez votre nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Votre email</label>
+                    <input type="email" id="email" class="form-control" placeholder="Entrez votre email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Votre message</label>
+                    <textarea id="message" class="form-control" placeholder="Écrivez votre message ici" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Envoyer le message</button>
+            </form>
+
+            <!-- Informations de contact -->
+            <div class="contact-info">
+                <h3>Nos informations</h3>
+                <p>📧 Email : <a href="mailto:contact@ecoride.com">contact@ecoride.com</a></p>
+                <p>📞 Téléphone : +33 1 23 45 67 89</p>
+                <p>🏢 Adresse : 123 Rue de l'Écologie, Paris, France</p>
+            </div>
+
+            <!-- Carte Google Maps -->
+            <div class="map-container">
+                <h3>Nous trouver sur la carte</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contactez-nous : <a href="mailto:contact@ecoride.com">contact@ecoride.com</a></p>
+        <p><a href="mentions-legales.html">Mentions légales</a></p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

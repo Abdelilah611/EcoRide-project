@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoRide - Créer un Compte</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Barre de navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">EcoRide</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="covoiturages.html">Covoiturages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="connexion.html">Connexion</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="register.html">Créer un compte</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section Créer un Compte -->
+    <section class="register-section">
+        <div class="container">
+            <h2>Créer un compte EcoRide</h2>
+            <form id="register-form">
+                <div class="form-group">
+                    <label for="name">Nom complet</label>
+                    <input type="text" id="name" class="form-control" placeholder="Entrez votre nom complet" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="form-control" placeholder="Entrez votre email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Mot de passe</label>
+                    <input type="password" id="password" class="form-control" placeholder="Entrez votre mot de passe" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirmer le mot de passe</label>
+                    <input type="password" id="confirm-password" class="form-control" placeholder="Confirmez votre mot de passe" required>
+                </div>
+                <button type="submit" class="btn-primary">Créer un compte</button>
+                <p id="error-message" class="error-message"></p>
+            </form>
+            <div class="text-center">
+                <p>Vous avez déjà un compte ? <a href="connexion.html">Se connecter</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Vous avez des questions ? <a href="contact.html">Contactez-nous ici</a> !</p>
+            <p><a href="mentions-legales.html">Mentions légales</a></p>
+            <p>&copy; 2024 EcoRide - Tous droits réservés</p>
+        </div>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
